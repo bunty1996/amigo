@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yuyakaido.android:card-stack-view:2.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51c05b21574b2ff58bfe0dd9468dbe59/jetified-card-stack-view-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51c05b21574b2ff58bfe0dd9468dbe59/jetified-card-stack-view-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51c05b21574b2ff58bfe0dd9468dbe59/jetified-card-stack-view-2.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8988c559cdc2402d8970cb03f687c17c/jetified-card-stack-view-2.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8988c559cdc2402d8970cb03f687c17c/jetified-card-stack-view-2.3.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8988c559cdc2402d8970cb03f687c17c/jetified-card-stack-view-2.3.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7f622040d7d130b2dfe2880473fd736/jetified-card-stack-view-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7f622040d7d130b2dfe2880473fd736/jetified-card-stack-view-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7f622040d7d130b2dfe2880473fd736/jetified-card-stack-view-2.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d6176b06ac1851d130747ef62500e10/jetified-card-stack-view-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d6176b06ac1851d130747ef62500e10/jetified-card-stack-view-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d6176b06ac1851d130747ef62500e10/jetified-card-stack-view-2.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd20ed2acc84837f9dc717fa46456d96/jetified-card-stack-view-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd20ed2acc84837f9dc717fa46456d96/jetified-card-stack-view-2.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd20ed2acc84837f9dc717fa46456d96/jetified-card-stack-view-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f87bf56b34123bf0ee359c02bcd40de7/jetified-card-stack-view-2.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f87bf56b34123bf0ee359c02bcd40de7/jetified-card-stack-view-2.3.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f87bf56b34123bf0ee359c02bcd40de7/jetified-card-stack-view-2.3.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36143b2bac6ed1f45d2205f07753cc21/jetified-card-stack-view-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36143b2bac6ed1f45d2205f07753cc21/jetified-card-stack-view-2.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36143b2bac6ed1f45d2205f07753cc21/jetified-card-stack-view-2.3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yuyakaido.android/card-stack-view/2.3.1/e2035b6a3725f9b7de80803c6f9c240180691579/card-stack-view-2.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yuyakaido.android/card-stack-view/2.3.1/233208c611c3730021f4abe699a043764bac3168/card-stack-view-2.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

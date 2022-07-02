@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/femalebackgroundcolor"
+    android:id="@+id/linearlayout"
+    tools:context=".Fragments.Message.MessageFragment">
+
+    <TextView
+        android:id="@+id/tv_newmatches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Matches"
+        android:textStyle="bold"
+        android:textColor="@color/femaletextcolor"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/NewMatches_Recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_meassage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:textStyle="bold"
+        android:textColor="@color/femaletextcolor"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Messages_Recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

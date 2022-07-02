@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/twoshadebackground"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout"
+    tools:context=".Fragments.Trending.TrendingFragment">
+
+
+
+    <com.daprlabs.cardstack.SwipeFrameLayout xmlns:swipedeck="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <com.daprlabs.cardstack.SwipeDeck
+            android:id="@+id/swipe_deck"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:padding="20dp"
+            swipedeck:card_spacing="10dp"
+            swipedeck:max_visible="3"
+            swipedeck:render_above="true"
+            swipedeck:rotation_degrees="15" />
+
+    </com.daprlabs.cardstack.SwipeFrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lin_exit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/oval_white">
+
+            <ImageView
+                android:id="@+id/img_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/mltiply" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_retry"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/oval_white">
+
+
+            <ImageView
+                android:id="@+id/img_retry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/retry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_star"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/oval_white">
+
+
+            <ImageView
+                android:id="@+id/img_star"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/star" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_trends"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/oval_white">
+
+
+            <ImageView
+                android:id="@+id/img_trends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/trends" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_fav"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/oval_white">
+
+
+            <ImageView
+                android:id="@+id/img_fav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/fav" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/oval_dark"
+        android:backgroundTint="@color/darkcolor"
+        android:visibility="invisible">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+</LinearLayout>

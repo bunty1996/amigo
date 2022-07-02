@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/trending"
+        android:icon="@drawable/firing"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/messageicon"
+        android:title="Chat"/>
+
+    <item
+        android:id="@+id/request"
+        android:icon="@drawable/friendrequest"
+        android:title="Requests"/>
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/heartstrokeicon"
+        android:title="Liked"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/cornerprofileicon"
+        android:title="Profile"/>
+
+</menu>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical"
+    tools:context=".Activities.AditionalInformation.AditionalInformationActivity">
+
+
+    <com.warkiz.widget.IndicatorSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:isb_only_thumb_draggable="false"
+        app:isb_progress="75"
+        app:isb_seek_smoothly="true"
+        app:isb_show_indicator="rounded_rectangle"
+        app:isb_show_tick_marks_type="oval"
+        app:isb_show_tick_texts="true"
+        app:isb_thumb_color="#C855BC"
+        app:isb_thumb_size="5dp"
+        app:isb_tick_marks_size="7dp"
+        app:isb_tick_texts_size="0sp"
+        app:isb_ticks_count="5"
+        app:isb_track_background_color="#EB92FB"
+        app:isb_track_background_size="2dp"
+        app:isb_track_progress_color="#C855BC"
+        app:isb_track_progress_size="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img_backs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:src="@drawable/back_icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:text="Additional Information"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Hold and drag your photos to change the order"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <GridView
+                        android:id="@+id/grid_builder"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:horizontalSpacing="5dp"
+                        android:numColumns="3"
+                        android:padding="5dp"
+                        android:scrollbars="none"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="13dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="About me"
+                    android:textColor="@color/lightgreen"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="16sp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:hint="A short things about you"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="My Work"
+                    android:textColor="@color/lightgreen"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:hint="Your current job"
+                    android:textSize="16sp"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="School"
+                    android:textColor="@color/lightgreen"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_Numbers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:hint="Your last education"
+                    android:textSize="16sp"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Living In"
+                    android:textColor="@color/lightgreen"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_DOB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:hint="Add city"
+                    android:textSize="16sp"
+                    android:imeOptions="actionNext"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Basic Information"
+                    android:textColor="@color/lightgreen"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/height_field"
+                    android:drawablePadding="20dp"
+                    android:textSize="16sp"
+                    android:hint="Your height"
+                    android:imeOptions="actionNext"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/weight_field"
+                    android:drawablePadding="20dp"
+                    android:textSize="16sp"
+                    android:hint="Your weight"
+                    android:imeOptions="actionNext"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/fav_field"
+                    android:drawablePadding="20dp"
+                    android:textSize="16sp"
+                    android:hint="Your favorite sports"
+                    android:imeOptions="actionNext"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/searchfield"
+                    android:drawablePadding="20dp"
+                    android:textSize="16sp"
+                    android:hint="What are you looking for?"
+                    android:imeOptions="actionNext"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/weight_field"
+                    android:drawablePadding="20dp"
+                    android:textSize="16sp"
+                    android:hint="Your last degree of education"
+                    android:imeOptions="actionNext"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/pinkTheme"
+                    android:textColorHint="@color/gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/cornor_edittext"
+                    android:backgroundTint="@color/white"
+                    android:orientation="horizontal"
+                    android:padding="18dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:text="Edit"
+                        android:textColor="@color/pinkTheme"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="0.2dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:text="Preview"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="35dp"
+                    android:background="@drawable/cornor_button"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="Continue"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
